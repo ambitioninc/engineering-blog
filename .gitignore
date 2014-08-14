@@ -1,0 +1,11 @@
+# pycharm
+.idea
+
+# OS X
+.DS_Store
+
+# VIM
+.*.swp
+
+_site/*
+

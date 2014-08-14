@@ -1,0 +1,13 @@
+name: "Ambition Engineering Blog"
+description: "Ambition's Engineering Blog"
+
+# url: "http://localhost:4000"
+url: "http://engineering.ambition.com"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: true
+
+github: [Repository metadata]
