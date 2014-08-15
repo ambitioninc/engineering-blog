@@ -7,7 +7,7 @@ Jekyll
 ------
 This site is built with Jekyll. If you need a primer, check out [this one](https://www.andrewmunsell.com/tutorials/jekyll-by-example/tutorial)
 
-Two handy commands to know are 
+Two handy commands to know are
 * `jekyll serve --watch`
 * `jekyll build --watch`
 
@@ -27,10 +27,16 @@ title: Welcome to the Engineering Blog!
 layout: post
 author: Micah Hausler
 comments: true
+tags: AmbitionSales
 ---
 ```
-This has a title, layout, author, and comment options. 
+* Title is required
+* Layout is `post` for posts and `default` for other pages
+* Author is requried for posts
+* Comments are optional: only enabled if set to true
+* Tags are optional: Creates twitter hashtag links for each tag you add
+
 
 Styling
 -------
-You are welcome to make the styling better. 
+You are welcome to make the styling better. I'm starting this off with Twitter Bootstrap
