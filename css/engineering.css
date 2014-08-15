@@ -1,0 +1,11 @@
+.brand-img
+{
+  background: url(images/logo.png) no-repeat left center;
+  height: 25px;
+  width: 129px;
+}
+
+.navbar-brand {
+  line-height: 1.42857143;
+  font-size: 22px;
+}
