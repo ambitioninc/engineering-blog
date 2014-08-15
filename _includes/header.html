@@ -8,11 +8,6 @@
 
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/engineering.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px;
-      }
-    </style>
     <!-- <link href="/css/bootstrap-responsive.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -26,10 +21,14 @@
     <div class="navbar navbar-default navbar-fixed-top"  role="navigation">
       <div class="navbar-inner">
         <div class="container">
-          <a class="navbar-left btn navbar-btn" href="/">
-          <img src="/img/ambition.png" class="brand-img" alt="{{ site.name }}">
-          </a>
-          <p class="navbar-left navbar-brand">Engineering Blog</p>
+          <div class="navbar-header">
+            <a class="navbar-left btn navbar-btn" href="/">
+            <img src="/img/ambition.png" class="brand-img" alt="{{ site.name }}">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <p class="navbar-left navbar-brand">Engineering Blog</p>
+          </div>
         </div>
       </div>
     </div>
