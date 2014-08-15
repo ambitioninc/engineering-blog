@@ -9,3 +9,7 @@
   line-height: 1.42857143;
   font-size: 22px;
 }
+
+body {
+  padding-top: 60px;
+}
